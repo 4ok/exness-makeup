@@ -17,10 +17,10 @@ https://4ok.github.io/exness-makeup/
 
 ### Supported browsers
 
-last 2 chrome versions
-firefox >= 45
-safari >= 8
-ie >= 11
+- Last 2 chrome versions
+- Firefox >= 45
+- Safari >= 8
+- IE >= 11
 
 ---
 
