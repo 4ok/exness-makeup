@@ -13,7 +13,7 @@
 
 ## Demo
 
-https://4ok.github.io/exness/
+https://4ok.github.io/exness-makeup/
 
 ### Supported browsers
 
@@ -29,7 +29,7 @@ ie >= 11
 
 ## Installation
 
-`git clone https://github.com/4ok/exness.git`
+`git clone https://github.com/4ok/exness-makeup.git`
 
 ## Make build
 
