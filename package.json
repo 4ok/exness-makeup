@@ -1,0 +1,23 @@
+{
+  "name": "aliexness",
+  "version": "1.0.0",
+  "author": "4ok",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^9.1.5",
+    "http-serve": "^1.0.1",
+    "postcss-cli": "^6.0.0",
+    "postcss-preset-env": "^6.1.0",
+    "stylelint": "^9.6.0",
+    "stylelint-config-standard": "^18.2.0",
+    "stylelint-order": "^1.0.0"
+  },
+  "scripts": {
+    "start": "http-serve ./public -o",
+    "lint": "stylelint static/index.css --fix",
+    "build": "npm run lint && npm run _dir && npm run _static && npm run _css",
+    "_dir": "rm -rf build && mkdir build",
+    "_static": "cp -r public/* build/",
+    "_css": "postcss public/index.css -o build/index.css"
+  }
+}
