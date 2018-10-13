@@ -6,11 +6,6 @@ module.exports = {
 		'postcss-preset-env': {
 			preserve: false,
 			stage: 1,
-			// importFrom: [
-			// 	'./src/css/media.css',
-			// 	'./src/css/properties.css',
-			// ],
-		},
 		cssnano: isProd,
 	},
 }
