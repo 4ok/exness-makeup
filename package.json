@@ -20,5 +20,10 @@
     "_dir": "rm -rf build && mkdir build",
     "_static": "cp -r public/* build/",
     "_css": "postcss public/index.css -o build/index.css"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run lint"
+    }
   }
 }
